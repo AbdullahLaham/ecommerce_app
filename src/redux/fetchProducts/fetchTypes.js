@@ -1,0 +1,10 @@
+export const FETCH_PRODUCTS = 'FETCH_PRODUCTS';
+export const FETCH_BANNER = 'FETCH_BANNER';
+export const SEND_PRODUCT = 'SEND_PRODUCT';
+export const SEND_IMAGES = 'SEND_IMAGES';
+export const SHOW_CART = 'SHOW_CART';
+export const CART_ITEMS = 'CART_ITEMS';
+export const TOTAL_PRICE = 'TOTAL_PRICE';
+export const TOTAL_QUANTITIES = 'TOTAL_QUANTITIES';
+export const INC_QTY = 'INC_QTY';
+export const DEC_QTY = 'DEC_QTY';
