@@ -40,10 +40,10 @@ export default function PaymentForm() {
     if(!error) {
         try {
             const {id} = paymentMethod
-            const response = await axios.post("http://localhost:4000/payment", {
+            const response = await axios.post("https://ecommerce-app-beryl-one.vercel.app/payment", {
                 amount: totalPrice,
                 id,
-                description: "JSX Company",
+                description: "Abdullah Company",
                 customer: 'abed26194@gmail.com',
 
             })
